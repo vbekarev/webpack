@@ -1,0 +1,413 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'webpack-dev-server',
+1 verbose cli   '-g' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'webpack-dev-server', null ]
+5 verbose cache add name=undefined spec="webpack-dev-server" args=["webpack-dev-server",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'webpack-dev-server',
+6 verbose parsed url   path: 'webpack-dev-server',
+6 verbose parsed url   href: 'webpack-dev-server' }
+7 silly lockFile c567c02f-webpack-dev-server webpack-dev-server
+8 verbose lock webpack-dev-server /home/vbekarev/.npm/c567c02f-webpack-dev-server.lock
+9 silly lockFile c567c02f-webpack-dev-server webpack-dev-server
+10 silly lockFile c567c02f-webpack-dev-server webpack-dev-server
+11 verbose addNamed [ 'webpack-dev-server', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile b579fb99-webpack-dev-server webpack-dev-server@
+14 verbose lock webpack-dev-server@ /home/vbekarev/.npm/b579fb99-webpack-dev-server.lock
+15 silly addNameRange { name: 'webpack-dev-server', range: '*', hasData: false }
+16 verbose url raw webpack-dev-server
+17 verbose url resolving [ 'https://registry.npmjs.org/', './webpack-dev-server' ]
+18 verbose url resolved https://registry.npmjs.org/webpack-dev-server
+19 info trying registry request attempt 1 at 16:05:13
+20 http GET https://registry.npmjs.org/webpack-dev-server
+21 http 200 https://registry.npmjs.org/webpack-dev-server
+22 silly registry.get cb [ 200,
+22 silly registry.get   { 'content-type': 'application/json; charset=UTF-8',
+22 silly registry.get     server: 'UploadServer',
+22 silly registry.get     'cache-control': 'max-age=300',
+22 silly registry.get     'last-modified': 'Sat, 30 Dec 2017 3:39:40 GMT',
+22 silly registry.get     etag: '"5a470a7c-4205b"',
+22 silly registry.get     'content-length': '270427',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     date: 'Tue, 02 Jan 2018 09:05:07 GMT',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '9314',
+22 silly registry.get     connection: 'keep-alive',
+22 silly registry.get     'x-served-by': 'cache-bma7027-BMA',
+22 silly registry.get     'x-cache': 'HIT',
+22 silly registry.get     'x-cache-hits': '1',
+22 silly registry.get     'x-timer': 'S1514883908.845952,VS0,VE3',
+22 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+23 silly addNameRange number 2 { name: 'webpack-dev-server', range: '*', hasData: true }
+24 silly addNameRange versions [ 'webpack-dev-server',
+24 silly addNameRange   [ '0.6.0',
+24 silly addNameRange     '0.6.1',
+24 silly addNameRange     '0.6.2',
+24 silly addNameRange     '0.7.0',
+24 silly addNameRange     '0.7.1',
+24 silly addNameRange     '0.7.2',
+24 silly addNameRange     '0.8.0',
+24 silly addNameRange     '0.8.1',
+24 silly addNameRange     '0.8.2',
+24 silly addNameRange     '0.9.0',
+24 silly addNameRange     '0.9.1',
+24 silly addNameRange     '0.9.2',
+24 silly addNameRange     '0.9.3',
+24 silly addNameRange     '0.9.4',
+24 silly addNameRange     '0.10.0',
+24 silly addNameRange     '0.10.1',
+24 silly addNameRange     '0.11.0',
+24 silly addNameRange     '0.11.1',
+24 silly addNameRange     '1.0.0',
+24 silly addNameRange     '1.0.1',
+24 silly addNameRange     '1.0.2',
+24 silly addNameRange     '1.1.0',
+24 silly addNameRange     '1.2.0',
+24 silly addNameRange     '1.2.1',
+24 silly addNameRange     '1.2.2',
+24 silly addNameRange     '1.2.3',
+24 silly addNameRange     '1.2.4',
+24 silly addNameRange     '1.2.5',
+24 silly addNameRange     '1.2.6',
+24 silly addNameRange     '1.2.7',
+24 silly addNameRange     '1.2.8',
+24 silly addNameRange     '1.2.9',
+24 silly addNameRange     '1.3.0',
+24 silly addNameRange     '1.3.1',
+24 silly addNameRange     '1.3.2',
+24 silly addNameRange     '1.4.0',
+24 silly addNameRange     '1.4.1',
+24 silly addNameRange     '1.4.2',
+24 silly addNameRange     '1.4.3',
+24 silly addNameRange     '1.4.4',
+24 silly addNameRange     '1.4.5',
+24 silly addNameRange     '1.4.6',
+24 silly addNameRange     '1.4.7',
+24 silly addNameRange     '1.4.9',
+24 silly addNameRange     '1.4.10',
+24 silly addNameRange     '1.5.0',
+24 silly addNameRange     '1.6.0',
+24 silly addNameRange     '1.6.1',
+24 silly addNameRange     '1.6.2',
+24 silly addNameRange     '1.6.3',
+24 silly addNameRange     '1.6.4',
+24 silly addNameRange     '1.6.5',
+24 silly addNameRange     '1.6.6',
+24 silly addNameRange     '1.7.0',
+24 silly addNameRange     '1.8.0',
+24 silly addNameRange     '1.8.1',
+24 silly addNameRange     '1.8.2',
+24 silly addNameRange     '1.9.0',
+24 silly addNameRange     '1.10.0',
+24 silly addNameRange     '1.10.1',
+24 silly addNameRange     '1.11.0',
+24 silly addNameRange     '1.12.0',
+24 silly addNameRange     '1.12.1',
+24 silly addNameRange     '1.13.0',
+24 silly addNameRange     '1.14.0',
+24 silly addNameRange     '1.14.1',
+24 silly addNameRange     '2.0.0-beta',
+24 silly addNameRange     '2.1.0-beta.0',
+24 silly addNameRange     '1.15.0',
+24 silly addNameRange     '2.1.0-beta.1',
+24 silly addNameRange     '2.1.0-beta.2',
+24 silly addNameRange     '1.15.1',
+24 silly addNameRange     '2.1.0-beta.3',
+24 silly addNameRange     '2.1.0-beta.4',
+24 silly addNameRange     '1.15.2',
+24 silly addNameRange     '1.16.0',
+24 silly addNameRange     '1.16.1',
+24 silly addNameRange     '2.1.0-beta.5',
+24 silly addNameRange     '2.1.0-beta.6',
+24 silly addNameRange     '2.1.0-beta.7',
+24 silly addNameRange     '2.1.0-beta.8',
+24 silly addNameRange     '1.16.2',
+24 silly addNameRange     '2.1.0-beta.9',
+24 silly addNameRange     '2.1.0-beta.10',
+24 silly addNameRange     '2.1.0-beta.11',
+24 silly addNameRange     '2.1.0-beta.12',
+24 silly addNameRange     '2.2.0-rc.0',
+24 silly addNameRange     '2.2.0',
+24 silly addNameRange     '2.2.1',
+24 silly addNameRange     '1.16.3',
+24 silly addNameRange     '2.3.0',
+24 silly addNameRange     '2.4.0',
+24 silly addNameRange     '2.4.1',
+24 silly addNameRange     '2.4.2',
+24 silly addNameRange     '2.4.3',
+24 silly addNameRange     '1.16.4',
+24 silly addNameRange     '2.4.4',
+24 silly addNameRange     '2.4.5',
+24 silly addNameRange     '1.16.5',
+24 silly addNameRange     '2.5.0',
+24 silly addNameRange     '2.5.1',
+24 silly addNameRange     '2.6.0',
+24 silly addNameRange     '2.6.1',
+24 silly addNameRange     '2.7.1',
+24 silly addNameRange     '2.8.0',
+24 silly addNameRange     '2.8.1',
+24 silly addNameRange     '2.8.2',
+24 silly addNameRange     '2.9.0',
+24 silly addNameRange     '2.9.1',
+24 silly addNameRange     '2.9.2',
+24 silly addNameRange     '2.9.3',
+24 silly addNameRange     '2.9.4',
+24 silly addNameRange     '2.9.5',
+24 silly addNameRange     '2.9.6',
+24 silly addNameRange     '2.9.7',
+24 silly addNameRange     '3.0.0-alpha1',
+24 silly addNameRange     '3.0.0-alpha2',
+24 silly addNameRange     '3.0.0-alpha3',
+24 silly addNameRange     '3.0.0-alpha4',
+24 silly addNameRange     '3.0.0-alpha5',
+24 silly addNameRange     '3.0.0-alpha6' ] ]
+25 verbose addNamed [ 'webpack-dev-server', '2.9.7' ]
+26 verbose addNamed [ '2.9.7', '2.9.7' ]
+27 silly lockFile 90590942-webpack-dev-server-2-9-7 webpack-dev-server@2.9.7
+28 verbose lock webpack-dev-server@2.9.7 /home/vbekarev/.npm/90590942-webpack-dev-server-2-9-7.lock
+29 silly lockFile dfeececb-ver-webpack-dev-server-2-9-7-tgz https://registry.npmjs.org/webpack-dev-server/-/webpack-dev-server-2.9.7.tgz
+30 verbose lock https://registry.npmjs.org/webpack-dev-server/-/webpack-dev-server-2.9.7.tgz /home/vbekarev/.npm/dfeececb-ver-webpack-dev-server-2-9-7-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/webpack-dev-server/-/webpack-dev-server-2.9.7.tgz',
+31 verbose addRemoteTarball   '100ad6a14775478924d417ca6dcfb9d52a98faed' ]
+32 info retry fetch attempt 1 at 16:05:13
+33 verbose fetch to= /home/vbekarev/tmp/npm-31392-CAiO4SE5/1514883913653-0.17463754350319505/tmp.tgz
+34 http GET https://registry.npmjs.org/webpack-dev-server/-/webpack-dev-server-2.9.7.tgz
+35 http 200 https://registry.npmjs.org/webpack-dev-server/-/webpack-dev-server-2.9.7.tgz
+36 verbose tar unpack /home/vbekarev/tmp/npm-31392-CAiO4SE5/1514883913653-0.17463754350319505/tmp.tgz
+37 silly lockFile 3510caa3-3653-0-17463754350319505-package tar:///home/vbekarev/tmp/npm-31392-CAiO4SE5/1514883913653-0.17463754350319505/package
+38 verbose lock tar:///home/vbekarev/tmp/npm-31392-CAiO4SE5/1514883913653-0.17463754350319505/package /home/vbekarev/.npm/3510caa3-3653-0-17463754350319505-package.lock
+39 silly lockFile dedd4f2e-3653-0-17463754350319505-tmp-tgz tar:///home/vbekarev/tmp/npm-31392-CAiO4SE5/1514883913653-0.17463754350319505/tmp.tgz
+40 verbose lock tar:///home/vbekarev/tmp/npm-31392-CAiO4SE5/1514883913653-0.17463754350319505/tmp.tgz /home/vbekarev/.npm/dedd4f2e-3653-0-17463754350319505-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry LICENSE
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm extractEntry bin/webpack-dev-server.js
+46 silly gunzTarPerm extractEntry client/.eslintrc
+47 silly gunzTarPerm extractEntry client/index.bundle.js
+48 silly gunzTarPerm extractEntry client/index.js
+49 silly gunzTarPerm extractEntry client/live.bundle.js
+50 silly gunzTarPerm extractEntry client/live.html
+51 silly gunzTarPerm extractEntry client/live.js
+52 silly gunzTarPerm extractEntry client/overlay.js
+53 silly gunzTarPerm extractEntry client/page.pug
+54 silly gunzTarPerm extractEntry client/socket.js
+55 silly gunzTarPerm extractEntry client/sockjs.bundle.js
+56 silly gunzTarPerm extractEntry client/sockjs.js
+57 silly gunzTarPerm extractEntry client/style.css
+58 silly gunzTarPerm extractEntry client/web_modules/jquery/index.js
+59 silly gunzTarPerm extractEntry client/web_modules/jquery/jquery-1.8.1.js
+60 silly gunzTarPerm extractEntry client/webpack.config.js
+61 silly gunzTarPerm extractEntry client/webpack.sockjs.config.js
+62 silly gunzTarPerm extractEntry lib/optionsSchema.json
+63 silly gunzTarPerm extractEntry lib/OptionsValidationError.js
+64 silly gunzTarPerm extractEntry lib/polyfills.js
+65 silly gunzTarPerm extractEntry lib/Server.js
+66 silly gunzTarPerm extractEntry lib/util/addDevServerEntrypoints.js
+67 silly gunzTarPerm extractEntry lib/util/createDomain.js
+68 silly gunzTarPerm extractEntry ssl/.gitkeep
+69 silly lockFile 3510caa3-3653-0-17463754350319505-package tar:///home/vbekarev/tmp/npm-31392-CAiO4SE5/1514883913653-0.17463754350319505/package
+70 silly lockFile 3510caa3-3653-0-17463754350319505-package tar:///home/vbekarev/tmp/npm-31392-CAiO4SE5/1514883913653-0.17463754350319505/package
+71 silly lockFile dedd4f2e-3653-0-17463754350319505-tmp-tgz tar:///home/vbekarev/tmp/npm-31392-CAiO4SE5/1514883913653-0.17463754350319505/tmp.tgz
+72 silly lockFile dedd4f2e-3653-0-17463754350319505-tmp-tgz tar:///home/vbekarev/tmp/npm-31392-CAiO4SE5/1514883913653-0.17463754350319505/tmp.tgz
+73 verbose tar pack [ '/home/vbekarev/.npm/webpack-dev-server/2.9.7/package.tgz',
+73 verbose tar pack   '/home/vbekarev/tmp/npm-31392-CAiO4SE5/1514883913653-0.17463754350319505/package' ]
+74 verbose tarball /home/vbekarev/.npm/webpack-dev-server/2.9.7/package.tgz
+75 verbose folder /home/vbekarev/tmp/npm-31392-CAiO4SE5/1514883913653-0.17463754350319505/package
+76 silly lockFile 3510caa3-3653-0-17463754350319505-package tar:///home/vbekarev/tmp/npm-31392-CAiO4SE5/1514883913653-0.17463754350319505/package
+77 verbose lock tar:///home/vbekarev/tmp/npm-31392-CAiO4SE5/1514883913653-0.17463754350319505/package /home/vbekarev/.npm/3510caa3-3653-0-17463754350319505-package.lock
+78 silly lockFile 529a45fd-ack-dev-server-2-9-7-package-tgz tar:///home/vbekarev/.npm/webpack-dev-server/2.9.7/package.tgz
+79 verbose lock tar:///home/vbekarev/.npm/webpack-dev-server/2.9.7/package.tgz /home/vbekarev/.npm/529a45fd-ack-dev-server-2-9-7-package-tgz.lock
+80 silly lockFile 3510caa3-3653-0-17463754350319505-package tar:///home/vbekarev/tmp/npm-31392-CAiO4SE5/1514883913653-0.17463754350319505/package
+81 silly lockFile 3510caa3-3653-0-17463754350319505-package tar:///home/vbekarev/tmp/npm-31392-CAiO4SE5/1514883913653-0.17463754350319505/package
+82 silly lockFile 529a45fd-ack-dev-server-2-9-7-package-tgz tar:///home/vbekarev/.npm/webpack-dev-server/2.9.7/package.tgz
+83 silly lockFile 529a45fd-ack-dev-server-2-9-7-package-tgz tar:///home/vbekarev/.npm/webpack-dev-server/2.9.7/package.tgz
+84 silly lockFile cbe18af7-webpack-dev-server-2-9-7-package /home/vbekarev/.npm/webpack-dev-server/2.9.7/package
+85 verbose lock /home/vbekarev/.npm/webpack-dev-server/2.9.7/package /home/vbekarev/.npm/cbe18af7-webpack-dev-server-2-9-7-package.lock
+86 silly lockFile cbe18af7-webpack-dev-server-2-9-7-package /home/vbekarev/.npm/webpack-dev-server/2.9.7/package
+87 silly lockFile cbe18af7-webpack-dev-server-2-9-7-package /home/vbekarev/.npm/webpack-dev-server/2.9.7/package
+88 verbose tar unpack /home/vbekarev/.npm/webpack-dev-server/2.9.7/package.tgz
+89 silly lockFile c1abb5dd-webpack-dev-server-2-9-7-package tar:///home/vbekarev/.npm/webpack-dev-server/2.9.7/package
+90 verbose lock tar:///home/vbekarev/.npm/webpack-dev-server/2.9.7/package /home/vbekarev/.npm/c1abb5dd-webpack-dev-server-2-9-7-package.lock
+91 silly lockFile 529a45fd-ack-dev-server-2-9-7-package-tgz tar:///home/vbekarev/.npm/webpack-dev-server/2.9.7/package.tgz
+92 verbose lock tar:///home/vbekarev/.npm/webpack-dev-server/2.9.7/package.tgz /home/vbekarev/.npm/529a45fd-ack-dev-server-2-9-7-package-tgz.lock
+93 silly gunzTarPerm modes [ '755', '644' ]
+94 silly gunzTarPerm extractEntry package.json
+95 silly gunzTarPerm extractEntry README.md
+96 silly gunzTarPerm extractEntry bin/webpack-dev-server.js
+97 silly gunzTarPerm extractEntry client/webpack.sockjs.config.js
+98 silly gunzTarPerm extractEntry client/index.js
+99 silly gunzTarPerm extractEntry client/live.bundle.js
+100 silly gunzTarPerm extractEntry client/live.js
+101 silly gunzTarPerm extractEntry client/overlay.js
+102 silly gunzTarPerm extractEntry client/index.bundle.js
+103 silly gunzTarPerm extractEntry client/socket.js
+104 silly gunzTarPerm extractEntry client/sockjs.bundle.js
+105 silly gunzTarPerm extractEntry client/sockjs.js
+106 silly gunzTarPerm extractEntry client/webpack.config.js
+107 silly gunzTarPerm extractEntry client/live.html
+108 silly gunzTarPerm extractEntry client/style.css
+109 silly gunzTarPerm extractEntry client/web_modules/jquery/index.js
+110 silly gunzTarPerm extractEntry client/web_modules/jquery/jquery-1.8.1.js
+111 silly gunzTarPerm extractEntry client/.eslintrc
+112 silly gunzTarPerm extractEntry client/page.pug
+113 silly gunzTarPerm extractEntry lib/OptionsValidationError.js
+114 silly gunzTarPerm extractEntry lib/Server.js
+115 silly gunzTarPerm extractEntry lib/polyfills.js
+116 silly gunzTarPerm extractEntry lib/optionsSchema.json
+117 silly gunzTarPerm extractEntry lib/util/addDevServerEntrypoints.js
+118 silly gunzTarPerm extractEntry lib/util/createDomain.js
+119 silly gunzTarPerm extractEntry ssl/.gitkeep
+120 silly lockFile c1abb5dd-webpack-dev-server-2-9-7-package tar:///home/vbekarev/.npm/webpack-dev-server/2.9.7/package
+121 silly lockFile c1abb5dd-webpack-dev-server-2-9-7-package tar:///home/vbekarev/.npm/webpack-dev-server/2.9.7/package
+122 silly lockFile 529a45fd-ack-dev-server-2-9-7-package-tgz tar:///home/vbekarev/.npm/webpack-dev-server/2.9.7/package.tgz
+123 silly lockFile 529a45fd-ack-dev-server-2-9-7-package-tgz tar:///home/vbekarev/.npm/webpack-dev-server/2.9.7/package.tgz
+124 verbose chmod /home/vbekarev/.npm/webpack-dev-server/2.9.7/package.tgz 644
+125 verbose chown /home/vbekarev/.npm/webpack-dev-server/2.9.7/package.tgz [ 1000, 1000 ]
+126 silly lockFile dfeececb-ver-webpack-dev-server-2-9-7-tgz https://registry.npmjs.org/webpack-dev-server/-/webpack-dev-server-2.9.7.tgz
+127 silly lockFile dfeececb-ver-webpack-dev-server-2-9-7-tgz https://registry.npmjs.org/webpack-dev-server/-/webpack-dev-server-2.9.7.tgz
+128 silly lockFile 90590942-webpack-dev-server-2-9-7 webpack-dev-server@2.9.7
+129 silly lockFile 90590942-webpack-dev-server-2-9-7 webpack-dev-server@2.9.7
+130 silly lockFile b579fb99-webpack-dev-server webpack-dev-server@
+131 silly lockFile b579fb99-webpack-dev-server webpack-dev-server@
+132 silly resolved [ { name: 'webpack-dev-server',
+132 silly resolved     version: '2.9.7',
+132 silly resolved     description: 'Serves a webpack app. Updates the browser on changes.',
+132 silly resolved     license: 'MIT',
+132 silly resolved     repository:
+132 silly resolved      { type: 'git',
+132 silly resolved        url: 'git://github.com/webpack/webpack-dev-server' },
+132 silly resolved     author: { name: 'Tobias Koppers @sokra' },
+132 silly resolved     homepage: 'https://github.com/webpack/webpack-dev-server',
+132 silly resolved     maintainers: [ [Object] ],
+132 silly resolved     main: 'lib/Server.js',
+132 silly resolved     bin: { 'webpack-dev-server': 'bin/webpack-dev-server.js' },
+132 silly resolved     engines: { node: '>=4.7' },
+132 silly resolved     scripts:
+132 silly resolved      { beautify: 'npm run lint -- --fix',
+132 silly resolved        ci: 'npm run cover -- --report lcovonly && npm run test',
+132 silly resolved        cover: 'istanbul cover node_modules/mocha/bin/_mocha',
+132 silly resolved        lint: 'eslint bin lib test examples client/{index,live,socket,sockjs,overlay,webpack.config}.js',
+132 silly resolved        mocha: 'mocha --full-trace --check-leaks',
+132 silly resolved        prepublish: '(rm ssl/*.pem || true) && npm run -s build:live && npm run -s build:index && npm run -s build:sockjs',
+132 silly resolved        test: 'npm run lint && npm run mocha',
+132 silly resolved        'build:live': 'webpack ./client/live.js client/live.bundle.js --color --config client/webpack.config.js',
+132 silly resolved        'build:index': 'webpack ./client/index.js client/index.bundle.js --color --config client/webpack.config.js',
+132 silly resolved        'build:sockjs': 'webpack ./client/sockjs.js client/sockjs.bundle.js --color --config client/webpack.sockjs.config.js',
+132 silly resolved        'webpack-dev-server': 'cd $INIT_CWD && node ../../../bin/webpack-dev-server.js' },
+132 silly resolved     files: [ 'lib/', 'bin', 'client/', 'ssl/' ],
+132 silly resolved     peerDependencies: { webpack: '^2.2.0 || ^3.0.0' },
+132 silly resolved     dependencies:
+132 silly resolved      { 'ansi-html': '0.0.7',
+132 silly resolved        'array-includes': '^3.0.3',
+132 silly resolved        bonjour: '^3.5.0',
+132 silly resolved        chokidar: '^1.6.0',
+132 silly resolved        compression: '^1.5.2',
+132 silly resolved        'connect-history-api-fallback': '^1.3.0',
+132 silly resolved        debug: '^3.1.0',
+132 silly resolved        del: '^3.0.0',
+132 silly resolved        express: '^4.16.2',
+132 silly resolved        'html-entities': '^1.2.0',
+132 silly resolved        'http-proxy-middleware': '~0.17.4',
+132 silly resolved        'import-local': '^0.1.1',
+132 silly resolved        'internal-ip': '1.2.0',
+132 silly resolved        ip: '^1.1.5',
+132 silly resolved        killable: '^1.0.0',
+132 silly resolved        loglevel: '^1.4.1',
+132 silly resolved        opn: '^5.1.0',
+132 silly resolved        portfinder: '^1.0.9',
+132 silly resolved        selfsigned: '^1.9.1',
+132 silly resolved        'serve-index': '^1.7.2',
+132 silly resolved        sockjs: '0.3.18',
+132 silly resolved        'sockjs-client': '1.1.4',
+132 silly resolved        spdy: '^3.4.1',
+132 silly resolved        'strip-ansi': '^3.0.1',
+132 silly resolved        'supports-color': '^4.2.1',
+132 silly resolved        'webpack-dev-middleware': '^1.11.0',
+132 silly resolved        yargs: '^6.6.0' },
+132 silly resolved     devDependencies:
+132 silly resolved      { 'codecov.io': '^0.1.6',
+132 silly resolved        'css-loader': '^0.28.5',
+132 silly resolved        eslint: '^4.5.0',
+132 silly resolved        'eslint-config-webpack': '^1.2.5',
+132 silly resolved        'eslint-plugin-import': '^2.7.0',
+132 silly resolved        execa: '^0.8.0',
+132 silly resolved        'file-loader': '^0.11.2',
+132 silly resolved        'html-webpack-plugin': '^2.30.1',
+132 silly resolved        istanbul: '^0.4.5',
+132 silly resolved        jquery: '^3.2.1',
+132 silly resolved        less: '^2.5.1',
+132 silly resolved        'less-loader': '^4.0.5',
+132 silly resolved        marked: '^0.3.6',
+132 silly resolved        mocha: '^3.0.2',
+132 silly resolved        'mocha-sinon': '^2.0.0',
+132 silly resolved        pug: '^2.0.0-beta5',
+132 silly resolved        'pug-loader': '^2.3.0',
+132 silly resolved        should: '^12.0.0',
+132 silly resolved        sinon: '^3.2.1',
+132 silly resolved        'style-loader': '^0.18.2',
+132 silly resolved        supertest: '^3.0.0',
+132 silly resolved        'uglifyjs-webpack-plugin': '^1.0.0-beta.2',
+132 silly resolved        'url-loader': '~0.5.6',
+132 silly resolved        webpack: '^3.0.0',
+132 silly resolved        ws: '^3.1.0' },
+132 silly resolved     readme: '<div align="center">\n  <a href="https://github.com/webpack/webpack">\n    <img width="200" height="200" src="https://webpack.js.org/assets/icon-square-big.svg">\n  </a>\n</div>\n\n[![npm][npm]][npm-url]\n[![node][node]][node-url]\n[![deps][deps]][deps-url]\n[![tests][tests]][tests-url]\n[![coverage][cover]][cover-url]\n[![chat][chat]][chat-url]\n\n# webpack-dev-server\n\nUse [webpack](https://webpack.js.org) with a development server that provides\nlive reloading. This should be used for **development only**.\n\nIt uses [webpack-dev-middleware][middleware-url] under the hood, which provides\nfast in-memory access to the webpack assets.\n\n## Getting Started\n\nFirst thing\'s first, install the module:\n\n```console\nnpm install webpack-dev-server --save-dev\n```\n\n_Note: While you can install and run webpack-dev-server globally, we recommend\ninstalling it locally. webpack-dev-server will always use a local installation\nover a global one._\n\n## Usage\n\nThere are two main, recommended methods of using the module:\n\n### With the CLI\n\nThe easiest way to use it is with the CLI. In the directory where your\n`webpack.config.js` is, run:\n\n```console\nnode_modules/.bin/webpack-dev-server\n```\n\n### With NPM Scripts\n\nNPM package.json scripts are a convenient and useful means to run locally installed\nbinaries without having to be concerned about their full paths. Simply define a\nscript as such:\n\n```json\n"scripts": {\n  "start:dev": "webpack-dev-server"\n}\n```\n\nAnd run the following in your terminal/console:\n\n```console\nnpm run start:dev\n```\n\nNPM will automagically reference the binary in `node_modules` for you, and\nexecute the file or command.\n\n### The Result\n\nEither method will start a server instance and begin listening for connections\nfrom `localhost` on port `8080`.\n\nwebpack-dev-server is configured by default to support live-reload of files as\nyou edit your assets while the server is running.\n\nSee [**the documentation**][docs-url] for more use cases and options.\n\n## Caveats\n\nVersion 2.8.0 introduced a change which included ES6 keywords `const` and `let`\nwithin the scripts being served to the browser. This effects environments which\nsupport _no ES6 whatsoever_, including older versions of UglifyJS and Internet\nExplorer. This was not considered a breaking change at the time due to official\nsupport for oldIE ending in 2016, rather this was seen as a maintenance update.\nThose wishing to support oldIE should stick with version 2.7.1.\n\nFor version 2.8.0+ those using UglifyJS in their webpack configs should use the\nbeta version of [uglifyjs-webpack-plugin][uglify-url] independently, and _not_\nthe built-in plugin. This will change once the new version is out of beta.\n\n## Support\n\nWe do our best to keep Issues in the repository focused on bugs, features, and\nneeded modifications to the code for the module. Because of that, we ask users\nwith general support, "how-to", or "why isn\'t this working" questions to try one\nof the other support channels that are available.\n\nYour first-stop-shop for support for webpack-dev-server should by the excellent\n[documentation][docs-url] for the module. If you see an opportunity for improvement\nof those docs, please head over to the [webpack.js.org repo][wjo-url] and open a\npull request.\n\nFrom there, we encourage users to visit the [webpack Gitter chat][chat-url] and\ntalk to the fine folks there. If your quest for answers comes up dry in chat,\nhead over to [StackOverflow][stack-url] and do a quick search or open a new\nquestion. Remember; It\'s always much easier to answer questions that include your\n`webpack.config.js` and relevant files!\n\nIf you\'re twitter-savvy you can tweet [#webpack][hash-url] with your question\nand someone should be able to reach out and lend a hand.\n\nIf you have discovered a :bug:, have a feature suggestion, of would like to see\na modification, please feel free to create an issue on Github. _Note: The issue\ntemplate isn\'t optional, so please be sure not to remove it, and please fill it\nout completely._\n\n## Contributing\n\nWe welcome your contributions! Please have a read of [CONTRIBUTING.md](CONTRIBUTING.md) for more information on how to get involved.\n\n## Maintainers\n\n<table>\n  <tbody>\n    <tr>\n      <td align="center">\n        <img src="https://avatars.githubusercontent.com/SpaceK33z?v=4&s=150">\n        <br />\n        <a href="https://github.com/SpaceK33z">Kees Kluskens</a>\n      </td>\n      <td align="center">\n        <img src="https://i.imgur.com/4v6pgxh.png">\n        <br />\n        <a href="https://github.com/shellscape">Andrew Powell</a>\n      </td>\n    </tr>\n  </tbody>\n</table>\n\n## Attribution\n\nThis project is heavily inspired by [peerigon/nof5](https://github.com/peerigon/nof5).\n\n## License\n\n#### [MIT](./LICENSE)\n\n\n[npm]: https://img.shields.io/npm/v/webpack-dev-server.svg\n[npm-url]: https://npmjs.com/package/webpack-dev-server\n\n[node]: https://img.shields.io/node/v/webpack-dev-server.svg\n[node-url]: https://nodejs.org\n\n[deps]: https://david-dm.org/webpack/webpack-dev-server.svg\n[deps-url]: https://david-dm.org/webpack/webpack-dev-server\n\n[tests]: http://img.shields.io/travis/webpack/webpack-dev-server.svg\n[tests-url]: https://travis-ci.org/webpack/webpack-dev-server\n\n[cover]: https://codecov.io/gh/webpack/webpack-dev-server/branch/master/graph/badge.svg\n[cover-url]: https://codecov.io/gh/webpack/webpack-dev-server\n\n[chat]: https://badges.gitter.im/webpack/webpack.svg\n[chat-url]: https://gitter.im/webpack/webpack\n\n[docs-url]: https://webpack.js.org/configuration/dev-server/#devserver\n[hash-url]: https://twitter.com/search?q=webpack\n[middleware-url]: https://github.com/webpack/webpack-dev-middleware\n[stack-url]: https://stackoverflow.com/questions/tagged/webpack-dev-server\n[uglify-url]: https://github.com/webpack-contrib/uglifyjs-webpack-plugin\n[wjo-url]: https://github.com/webpack/webpack.js.org\n',
+132 silly resolved     readmeFilename: 'README.md',
+132 silly resolved     bugs: { url: 'https://github.com/webpack/webpack-dev-server/issues' },
+132 silly resolved     _id: 'webpack-dev-server@2.9.7',
+132 silly resolved     dist: { shasum: '60d20177feab10b4c050e4c35d2f1eec0dafa28b' },
+132 silly resolved     _from: 'webpack-dev-server@',
+132 silly resolved     _resolved: 'https://registry.npmjs.org/webpack-dev-server/-/webpack-dev-server-2.9.7.tgz' } ]
+133 info install webpack-dev-server@2.9.7 into /usr/local/lib
+134 info installOne webpack-dev-server@2.9.7
+135 warn engine webpack-dev-server@2.9.7: wanted: {"node":">=4.7"} (current: {"node":"v0.10.25","npm":"1.3.10"})
+136 info /usr/local/lib/node_modules/webpack-dev-server unbuild
+137 verbose tar unpack /home/vbekarev/.npm/webpack-dev-server/2.9.7/package.tgz
+138 silly lockFile d5016488--node-modules-webpack-dev-server tar:///usr/local/lib/node_modules/webpack-dev-server
+139 verbose lock tar:///usr/local/lib/node_modules/webpack-dev-server /home/vbekarev/.npm/d5016488--node-modules-webpack-dev-server.lock
+140 silly lockFile 529a45fd-ack-dev-server-2-9-7-package-tgz tar:///home/vbekarev/.npm/webpack-dev-server/2.9.7/package.tgz
+141 verbose lock tar:///home/vbekarev/.npm/webpack-dev-server/2.9.7/package.tgz /home/vbekarev/.npm/529a45fd-ack-dev-server-2-9-7-package-tgz.lock
+142 silly gunzTarPerm modes [ '755', '644' ]
+143 error Error: EACCES, mkdir '/usr/local/lib/node_modules/webpack-dev-server'
+143 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/webpack-dev-server']
+143 error   errno: 3,
+143 error   code: 'EACCES',
+143 error   path: '/usr/local/lib/node_modules/webpack-dev-server',
+143 error   fstream_type: 'Directory',
+143 error   fstream_path: '/usr/local/lib/node_modules/webpack-dev-server',
+143 error   fstream_class: 'DirWriter',
+143 error   fstream_stack:
+143 error    [ '/usr/lib/nodejs/fstream/lib/dir-writer.js:36:23',
+143 error      '/usr/lib/nodejs/mkdirp/index.js:37:53',
+143 error      'Object.oncomplete (fs.js:107:15)' ] }
+144 error Please try running this command again as root/Administrator.
+145 error System Linux 3.13.0-24-generic
+146 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "webpack-dev-server" "-g"
+147 error cwd /react/webpack
+148 error node -v v0.10.25
+149 error npm -v 1.3.10
+150 error path /usr/local/lib/node_modules/webpack-dev-server
+151 error fstream_path /usr/local/lib/node_modules/webpack-dev-server
+152 error fstream_type Directory
+153 error fstream_class DirWriter
+154 error code EACCES
+155 error errno 3
+156 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/webpack-dev-server'
+157 error fstream_stack /usr/lib/nodejs/fstream/lib/dir-writer.js:36:23
+157 error fstream_stack /usr/lib/nodejs/mkdirp/index.js:37:53
+157 error fstream_stack Object.oncomplete (fs.js:107:15)
+158 verbose exit [ 3, true ]
